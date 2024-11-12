@@ -69,12 +69,19 @@ A simple To-Do List app built with **HTML**, **CSS**, and **JavaScript**.
 ![image](https://github.com/user-attachments/assets/dcc37079-ab75-4be0-99a2-4236c2db35b8)
 ![image](https://github.com/user-attachments/assets/caee56cf-e25c-489e-a0b1-4b3aaf13d96e)
 
-### Navigate to Web Directory: 
+### Navigate to Web Directory 
 1.  Go to `/var/www/html`, the default directory for Apache.
 2.  Clone the above git repository.
 3.  Restart the apache2  
-   ```bash
+    ```bash
     cd /var/www/html
     git clone https://github.com/Shomeshwar-K/Deploy-a-Simple-Web-Application.git
     sudo systemctl restart apache2
-![image](https://github.com/user-attachments/assets/32e9855d-c46d-4227-b9a6-bdc360ce6792)
+![image](https://github.com/user-attachments/assets/9de5dbf0-e05b-46a8-8279-af126691400f)
+
+## Running To-Do Application
+
+1.   Obtain the Public IP of Your EC2 Instance
+2.   Access the Application in Your Web Browser with the public IP address and the port number
+3.   Once the page loads, you should see the To-Do List app that you deployed. You can now interact with the app, add and remove tasks as needed.
+![image](https://github.com/user-attachments/assets/d16d6dc9-01db-44ab-96a9-dbba95283136)
