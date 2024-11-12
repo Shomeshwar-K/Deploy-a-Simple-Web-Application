@@ -58,7 +58,7 @@ A simple To-Do List app built with **HTML**, **CSS**, and **JavaScript**.
 
 
 
-### Install Apache on your EC2 instance:
+### Install Apache on your EC2 instance
 1.  Instaliing apache web server to host the application
 2.  Steps to install apache2
     ```bash
