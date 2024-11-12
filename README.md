@@ -10,7 +10,7 @@ A simple To-Do List app built with **HTML**, **CSS**, and **JavaScript**.
 - Simple and responsive UI
 
 ## Technologies Used
-- **HTML**, **CSS**, **JavaScript**
+- **Amazon Web Services**,**Apache Web Server**,**HTML**, **CSS**, **JavaScript**
 
 ---
 
