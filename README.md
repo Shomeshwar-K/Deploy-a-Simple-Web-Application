@@ -66,7 +66,7 @@ A simple To-Do List app built with **HTML**, **CSS**, and **JavaScript**.
 ### Navigate to Web Directory 
 1.  Go to `/var/www/html`, the default directory for Apache.
 2.  Clone the above git repository.
-3.  Restart the apache2  
+3.  Restart apache2  
     ```bash
     cd /var/www/html
     git clone https://github.com/Shomeshwar-K/Deploy-a-Simple-Web-Application.git
