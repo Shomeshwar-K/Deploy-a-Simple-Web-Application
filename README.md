@@ -35,12 +35,6 @@ A simple To-Do List app built with **HTML**, **CSS**, and **JavaScript**.
    ```bash
    git remote add origin https://github.com/Shomeshwar-K/Deploy-a-Simple-Web-Application.git
    git push -u origin main
-
-## How to Clone the repository
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/Shomeshwar-K/Deploy-a-Simple-Web-Application.git
 ![image](https://github.com/user-attachments/assets/aeaa3493-2ebc-47b5-952c-033967c74028)
 
 ---
