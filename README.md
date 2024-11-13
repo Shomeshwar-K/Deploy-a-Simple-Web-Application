@@ -84,6 +84,6 @@ A simple To-Do List app built with **HTML**, **CSS**, and **JavaScript**.
 2.   Access the Application in Your Web Browser with the public IP address and the port number
 3.   Once the page loads, you should see the To-Do List app that you deployed. You can now interact with the app, add and remove tasks as needed.
    
-- Note: Stopping and restarting the EC2 instance, will change the Public IP address . Be sure to obtain the new public IP address if you need to access the app again after a restart.
+- Note: **Stopping** and **Starting** the EC2 instance, will change the Public IP address . Be sure to obtain the new public IP address if you need to access the app again after a Start.
 
 ![image](https://github.com/user-attachments/assets/d16d6dc9-01db-44ab-96a9-dbba95283136)
