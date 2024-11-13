@@ -45,9 +45,14 @@ A simple To-Do List app built with **HTML**, **CSS**, and **JavaScript**.
 1.	Go to the AWS EC2 Dashboard.
 2.	Launch a new EC2 instance with the Ubuntu AMI .
 3. Choose the t2.micro instance type (eligible for the AWS free tier).
-4. For security settings, allow HTTP (port 80), HTTPS (port 443) and SSH (port 22).
-5. Download the SSH key pair to connect to the EC2 instance.
-6. Coonect the instance via putty with the ssh key pair.
+4. Configure the security group:
+      -Add inbound rules to allow access to:
+         -HTTP (port 80) from specific IP address or range (e.g., 0.0.0.0/0 for open access, or x.x.x.x/32 for a specific IP).
+         -HTTPS (port 443) from specific IP address or range.
+         -SSH (port 22) only from trusted IPs (e.g., your IP or a restricted range like x.x.x.x/32 to ensure secure access).
+5. Download the SSH key pair to connect to the EC2 instance securely.
+6. Connect to the instance using PuTTY with the downloaded SSH key pair.
+
 ![image](https://github.com/user-attachments/assets/17597af1-ea31-4e7f-b458-84fb7df70197)
 
 
@@ -78,4 +83,5 @@ A simple To-Do List app built with **HTML**, **CSS**, and **JavaScript**.
 1.   Obtain the Public IP of Your EC2 Instance
 2.   Access the Application in Your Web Browser with the public IP address and the port number
 3.   Once the page loads, you should see the To-Do List app that you deployed. You can now interact with the app, add and remove tasks as needed.
+Note: Stopping and restarting the EC2 instance, will change the Public IP address . Be sure to obtain the new public IP address if you need to access the app again after a restart.
 ![image](https://github.com/user-attachments/assets/d16d6dc9-01db-44ab-96a9-dbba95283136)
