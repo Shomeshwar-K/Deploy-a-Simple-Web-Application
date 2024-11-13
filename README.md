@@ -28,7 +28,7 @@ A simple To-Do List app built with **HTML**, **CSS**, and **JavaScript**.
    git commit -m "Initial commit"
 
 
-### 3. Push Your Project to GitHub
+### 2. Push Your Project to GitHub
 
 1. In **VS Code**, open the terminal and add your GitHub repository as a remote:
 
