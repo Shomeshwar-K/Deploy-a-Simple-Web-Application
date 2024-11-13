@@ -44,10 +44,10 @@ A simple To-Do List app built with **HTML**, **CSS**, and **JavaScript**.
 ### Create an AWS EC2 Instance
 1.	Go to the AWS EC2 Dashboard.
 2.	Launch a new EC2 instance with the Ubuntu AMI .
-    o	Choose the t2.micro instance type (eligible for the AWS free tier).
-    o	For security settings, allow HTTP (port 80), HTTPS (port 443) and SSH (port 22).
-    o	Download the SSH key pair to connect to the EC2 instance.
-    o	Coonect the instance via putty with the ssh key pair.
+3. Choose the t2.micro instance type (eligible for the AWS free tier).
+4. For security settings, allow HTTP (port 80), HTTPS (port 443) and SSH (port 22).
+5. Download the SSH key pair to connect to the EC2 instance.
+6. Coonect the instance via putty with the ssh key pair.
 ![image](https://github.com/user-attachments/assets/17597af1-ea31-4e7f-b458-84fb7df70197)
 
 
